@@ -50,17 +50,18 @@ Help Bellabeat better understand user behavior and generate insights that can gu
 
 ## 📊 Tableau Visualizations
 
-1. **Steps & Active Minutes Over Time**  
-   📈 `Bellabeat_Daily_Steps.png`
+### 📈 Steps & Active Minutes Over Time
+![Bellabeat Daily Steps](Bellabeat_Daily_Steps.png)
 
-2. **Calories Burned vs Activity Level**  
-   📊 `Caloriesburned_ActivityLevel.png`
+### 📊 Calories Burned vs Activity Level
+![Calories Burned](Caloriesburned_ActivityLevel.png)
 
-3. **Sleep Patterns vs Heart Rate**  
-   💤 `SleepPatterns_HeartRate.png`
+### 💤 Sleep Patterns vs Heart Rate
+![Sleep & HR](SleepPatterns_HeartRate.png)
 
-4. **Final Dashboard**  
-   🌐 `FinalDashboard.png`
+### 🌐 Final Dashboard Overview
+![Final Dashboard](FinalDashboard.png)
+
 
 > *(Dashboard created in Tableau, file: `Bellabeat Fitness Tracker Analysis.twbx`)*
 
