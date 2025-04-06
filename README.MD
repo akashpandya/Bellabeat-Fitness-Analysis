@@ -1,82 +1,101 @@
-# 📊 Bellabeat Fitness Tracker Analysis
+# 📊 Bellabeat Fitness Tracker Analysis (Google Data Analytics Capstone)
 
-## 🚀 Project Overview  
-Bellabeat is a smart fitness company that designs health-focused wearable devices. This project analyzes **user activity data** to provide insights into fitness trends and wellness behaviors.  
-
-### **🔍 Key Business Questions Answered:**
-- How do users' daily steps and active minutes fluctuate over time?  
-- Does increased activity lead to higher calories burned?  
-- How does sleep duration affect heart rate?  
+This project analyzes smart fitness tracker data from Bellabeat, a wellness tech company, to uncover user activity, sleep, and heart rate patterns. It was completed as part of the Google Data Analytics Capstone to demonstrate proficiency in SQL, Excel, and Tableau.
 
 ---
 
-## 📊 **Skills & Tools Used**
-✔ **SQL (BigQuery)** → Data Cleaning & Aggregation  
-✔ **Excel** → Data Preprocessing  
-✔ **Tableau** → Data Visualization & Dashboards  
+## 🚀 Project Goal
+
+Help Bellabeat better understand user behavior and generate insights that can guide marketing strategies and product recommendations.
 
 ---
 
-## 🗂 **Dataset Information**
-- **File Name:** `bellabeat_fitness_data.csv`  
-- **Records:** 1,500 rows (50 users over 30 days)  
+## 🔍 Key Questions Answered
+
+- How do users’ daily steps and active minutes fluctuate?
+- Does increased activity lead to higher calorie burn?
+- How does sleep duration affect heart rate?
+
+---
+
+## 🛠 Tools & Skills Used
+
+| Tool      | Purpose                         |
+|-----------|----------------------------------|
+| **SQL (BigQuery)** | Data cleaning and transformation |
+| **Excel** | Initial preprocessing |
+| **Tableau** | Visualizations and dashboard building |
+
+---
+
+## 📂 Dataset Summary
+
+- **File:** `Bellabeat_Fitness_Data.csv`
+- **Rows:** 1,500 (50 users × 30 days)
 - **Columns:**
-  - `User_ID` → Unique ID for each user  
-  - `Activity_Date` → Daily record  
-  - `Steps` → Steps taken per day  
-  - `Active_Minutes` → Total active minutes per day  
-  - `Calories_Burned` → Estimated calories burned  
-  - `Sleep_Hours` → Total sleep hours per day  
-  - `Heart_Rate` → Average heart rate per day  
+  - `user_id`: Unique user
+  - `activity_date`: Day of activity
+  - `steps`, `active_minutes`, `calories_burned`
+  - `sleep_hours`, `heart_rate`
 
 ---
 
-## 📜 **SQL Queries Used**
-📌 **Data Cleaning Queries**  
-1️⃣ `data_cleaning.sql` → Fixes missing values & formats data  
+## 🔎 SQL Scripts Included
 
-📌 **User Activity Analysis**  
-2️⃣ `user_behavior_analysis.sql` → Identifies daily activity trends  
-
-📌 **Fitness Insights & Trends**  
-3️⃣ `activity_trends.sql` → Examines workout patterns  
+- `data_cleaning.sql`: Handles missing values, fixes formatting
+- `user_behavior_analysis.sql`: Explores daily activity patterns
+- `activity_trends.sql`: Identifies broader fitness trends
 
 ---
 
-## 📊 **Tableau Visualizations**
-1️⃣ **Steps & Active Minutes Over Time** (Line Chart)  
-2️⃣ **Calories Burned vs. Activity Level** (Bar Chart)  
-3️⃣ **Sleep Patterns & Heart Rate** (Scatter Plot)  
+## 📊 Tableau Visualizations
 
-📌 **[View the Full Tableau Dashboard Here](#add-your-public-tableau-link-here)**  
+1. **Steps & Active Minutes Over Time**  
+   📈 `Bellabeat_Daily_Steps.png`
 
----
+2. **Calories Burned vs Activity Level**  
+   📊 `Caloriesburned_ActivityLevel.png`
 
-## **📌 Key Insights & Findings**
-✔ **Users with higher steps & active minutes burn more calories.**  
-✔ **Users with longer sleep durations tend to have lower heart rates.**  
-✔ **Most users maintain a daily step count of 7,000–12,000.**  
+3. **Sleep Patterns vs Heart Rate**  
+   💤 `SleepPatterns_HeartRate.png`
 
----
+4. **Final Dashboard**  
+   🌐 `FinalDashboard.png`
 
-## **📌 How to Use This Project**
-1️⃣ **Download the SQL queries & dataset from this repo**  
-2️⃣ **Run the SQL scripts in BigQuery**  
-3️⃣ **Load the dataset into Tableau**  
-4️⃣ **Use the packaged workbook (`.twbx`) to explore the interactive dashboard**  
+> *(Dashboard created in Tableau, file: `Bellabeat Fitness Tracker Analysis.twbx`)*
 
 ---
 
-## **📌 Future Enhancements**
-✅ Add **machine learning predictions** for personalized fitness coaching  
-✅ Expand data analysis to include **heart rate variability & stress levels**  
+## 📌 Key Insights
+
+- Users with more steps and active minutes burn more calories.
+- Longer sleep duration correlates with lower heart rates.
+- Most users fall within a 7,000–12,000 daily step range.
 
 ---
 
-### **🚀 Final Steps**
-✅ **Upload all files to GitHub**  
-✅ **Paste this README.md into your project folder**  
-✅ **Commit Changes & Publish!**  
+## 🧪 How to Recreate This Project
 
-🔥 **Congrats, Akash! Another portfolio project DONE.** 🚀  
-**Let me know when everything is uploaded, and we’ll move to the next project!** 🎉💪  
+1. Clone this repo and download all files
+2. Run `.sql` scripts in BigQuery
+3. Open `.csv` in Tableau or Excel
+4. Import `.twbx` file to view dashboard
+
+---
+
+## 🔮 Future Enhancements
+
+- Predictive analytics for personalized fitness plans
+- Analyze heart rate variability and stress markers
+- Integrate wearables API for real-time tracking
+
+---
+
+## 👤 Author
+
+**Akash Pandya**  
+Freelance Data Analyst | R, SQL, Tableau, Excel  
+[Portfolio Website](https://aakashpandya.netlify.app/) • [GitHub](https://github.com/akashpandya) • [LinkedIn](https://www.linkedin.com/in/akash-pandya100/)
+
+---
+
