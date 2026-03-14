@@ -50,13 +50,13 @@ Help Bellabeat better understand user behavior and generate insights that can gu
 ## Tableau Visualizations
 
 ### Steps & Active Minutes Over Time
-![Bellabeat Daily Steps](Bellabeat-Fitness-Analysis/Bellabeat_Daily_Steps.png)
+![Bellabeat Daily Steps](Bellabeat_Daily_Steps.png)
 
 ### Calories Burned vs Activity Level
-![Calories Burned](Bellabeat-Fitness-Analysis/Caloriesburned_ActivityLevel.png)
+![Calories Burned](Caloriesburned_ActivityLevel.png)
 
 ### Sleep Patterns vs Heart Rate
-![Sleep & HR](Bellabeat-Fitness-Analysis/SleepPatterns_HeartRate.png)
+![Sleep & Heart Rate](SleepPatterns_HeartRate.png)
 
 ### Final Tableu Dashboard 
 ![Bellabeat Dashboard](FinalDashboard.png)
