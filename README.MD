@@ -1,16 +1,16 @@
-# 📊 Bellabeat Fitness Tracker Analysis (Google Data Analytics Capstone)
+# Bellabeat Fitness Tracker Analysis (Google Data Analytics Capstone)
 
 This project analyzes smart fitness tracker data from Bellabeat, a wellness tech company, to uncover user activity, sleep, and heart rate patterns. It was completed as part of the Google Data Analytics Capstone to demonstrate proficiency in SQL, Excel, and Tableau.
 
 ---
 
-## 🚀 Project Goal
+## Project Goal
 
 Help Bellabeat better understand user behavior and generate insights that can guide marketing strategies and product recommendations.
 
 ---
 
-## 🔍 Key Questions Answered
+## Key Questions Answered
 
 - How do users’ daily steps and active minutes fluctuate?
 - Does increased activity lead to higher calorie burn?
@@ -18,7 +18,7 @@ Help Bellabeat better understand user behavior and generate insights that can gu
 
 ---
 
-## 🛠 Tools & Skills Used
+## Tools & Skills Used
 
 | Tool      | Purpose                         |
 |-----------|----------------------------------|
@@ -28,7 +28,7 @@ Help Bellabeat better understand user behavior and generate insights that can gu
 
 ---
 
-## 📂 Dataset Summary
+## Dataset Summary
 
 - **File:** `Bellabeat_Fitness_Data.csv`
 - **Rows:** 1,500 (50 users × 30 days)
@@ -40,7 +40,7 @@ Help Bellabeat better understand user behavior and generate insights that can gu
 
 ---
 
-## 🔎 SQL Scripts Included
+## SQL Scripts Included
 
 - `data_cleaning.sql`: Handles missing values, fixes formatting
 - `user_behavior_analysis.sql`: Explores daily activity patterns
@@ -48,18 +48,18 @@ Help Bellabeat better understand user behavior and generate insights that can gu
 
 ---
 
-## 📊 Tableau Visualizations
+## Tableau Visualizations
 
-### 📈 Steps & Active Minutes Over Time
+### Steps & Active Minutes Over Time
 ![Bellabeat Daily Steps](Bellabeat-Fitness-Analysis/Bellabeat_Daily_Steps.png)
 
-### 📊 Calories Burned vs Activity Level
+### Calories Burned vs Activity Level
 ![Calories Burned](Bellabeat-Fitness-Analysis/Caloriesburned_ActivityLevel.png)
 
-### 💤 Sleep Patterns vs Heart Rate
+### Sleep Patterns vs Heart Rate
 ![Sleep & HR](Bellabeat-Fitness-Analysis/SleepPatterns_HeartRate.png)
 
-### 🌐 Final Dashboard Overview
+### Final Dashboard Overview
 ![Final Dashboard](Bellabeat-Fitness-Analysis/FinalDashboard.png)
 
 
@@ -67,7 +67,7 @@ Help Bellabeat better understand user behavior and generate insights that can gu
 
 ---
 
-## 📌 Key Insights
+## Key Insights
 
 - Users with more steps and active minutes burn more calories.
 - Longer sleep duration correlates with lower heart rates.
@@ -75,7 +75,7 @@ Help Bellabeat better understand user behavior and generate insights that can gu
 
 ---
 
-## 🧪 How to Recreate This Project
+## How to Recreate This Project
 
 1. Clone this repo and download all files
 2. Run `.sql` scripts in BigQuery
@@ -84,7 +84,7 @@ Help Bellabeat better understand user behavior and generate insights that can gu
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - Predictive analytics for personalized fitness plans
 - Analyze heart rate variability and stress markers
