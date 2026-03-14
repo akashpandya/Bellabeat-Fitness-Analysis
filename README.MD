@@ -18,13 +18,12 @@ Help Bellabeat better understand user behavior and generate insights that can gu
 
 ---
 
-## Tools & Skills Used
+## Tools Used
 
-| Tool      | Purpose                         |
-|-----------|----------------------------------|
-| **SQL (BigQuery)** | Data cleaning and transformation |
-| **Excel** | Initial preprocessing |
-| **Tableau** | Visualizations and dashboard building |
+- SQL (Data Cleaning & Analysis)
+- Excel (Initial exploration)
+- Tableau (Dashboard & visualization)
+- GitHub (Project documentation)
 
 ---
 
@@ -59,8 +58,8 @@ Help Bellabeat better understand user behavior and generate insights that can gu
 ### Sleep Patterns vs Heart Rate
 ![Sleep & HR](Bellabeat-Fitness-Analysis/SleepPatterns_HeartRate.png)
 
-### Final Dashboard Overview
-![Final Dashboard](Bellabeat-Fitness-Analysis/FinalDashboard.png)
+### Final Tableu Dashboard 
+![Bellabeat Dashboard](FinalDashboard.png)
 
 
 > *(Dashboard created in Tableau, file: `Bellabeat Fitness Tracker Analysis.twbx`)*
@@ -69,9 +68,10 @@ Help Bellabeat better understand user behavior and generate insights that can gu
 
 ## Key Insights
 
-- Users with more steps and active minutes burn more calories.
-- Longer sleep duration correlates with lower heart rates.
-- Most users fall within a 7,000–12,000 daily step range.
+• Users with higher daily steps tend to burn significantly more calories  
+• Sleep duration shows correlation with lower resting heart rate  
+• Activity intensity peaks during afternoon hours  
+• Consistent moderate activity leads to more stable sleep patterns
 
 ---
 
